@@ -9,6 +9,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 36px;
 }
 .hero {
     display: flex;
@@ -29,11 +30,13 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
     
 }
 .secondary-text, .link-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 .logo {
     font-size: 24px;
@@ -41,9 +44,14 @@ body {
 }
 .main {
     display: flex;
+    justify-content: space-between;
+    gap: 16px;
 }
 .main-image {
+    max-width:40%;
+    height: auto;
 }
+
 
 
 
