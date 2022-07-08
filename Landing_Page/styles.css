@@ -180,6 +180,16 @@ a {
     border-color: #F9FAF8;
 }
 
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+}
+
 
 
 
