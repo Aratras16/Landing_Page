@@ -5,6 +5,16 @@ ul {
     margin: 0;
     padding: 0;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+/*Hero*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -19,12 +29,6 @@ ul {
     padding: 16px 100px;
     border: none;
 
-}
-body {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin: 0;
 }
 .main-title {
     font-size: 48px;
@@ -54,10 +58,6 @@ body {
     height: auto;
 }
 
-a {
-    text-decoration: none;
-}
-
 .main .left-main {
     display: flex;
     flex-direction: column;
@@ -79,7 +79,46 @@ a {
     width: 100px;
     height: auto;
 }
+/* Information*/
+.information {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.images {
+    display: flex;
+    gap: 120px;
+    padding: 0 150px;
+}
+.illustration {
+    width: 150px;
+    height: auto;
 
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.information-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'roboto';
+}
+
+.subtext {
+    max-width: 150px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+
+}
 
 
 
