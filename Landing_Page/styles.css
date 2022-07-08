@@ -126,7 +126,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color:#E5E7EB ;
-    padding: 100px 250px;
+    padding: 100px 300px;
 }
 .quote-text {
     font-size: 36px;
@@ -139,6 +139,45 @@ a {
 .author {
     display: flex;
     justify-content: flex-end;
+}
+/*Banner*/
+.container {
+    padding: 100px 200px;
+}
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 20px;
+    padding: 50px 25px;
+}
+
+.sign-up-information {
+    padding-left:20px ;
+}
+.sign-up-title {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.sign-up-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    padding-right: 250px;
+}
+
+.sign-up-button {
+    padding: 10px 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bolder;
+    border-color: #F9FAF8;
 }
 
 
